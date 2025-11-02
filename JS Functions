@@ -30,3 +30,6 @@ IIFE functions are executed immediately after their definition. They are often u
 (function () {
     console.log("This runs immediately!");
 })();
+
+output:-
+This runs immediately!
