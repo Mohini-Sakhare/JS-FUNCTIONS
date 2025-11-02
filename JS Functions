@@ -24,3 +24,9 @@ console.log(add(2, 3)); // 5
 A new way to write functions using the => syntax. They are shorter and do not have their own this binding, which makes them useful in some cases.
 const square = n => n * n;
 console.log(square(4)); // 16
+
+5. Immediately Invoked Function Expression (IIFE)
+IIFE functions are executed immediately after their definition. They are often used to create isolated scopes.
+(function () {
+    console.log("This runs immediately!");
+})();
