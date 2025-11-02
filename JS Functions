@@ -56,3 +56,6 @@ function Person(name, age) {
 
 const user = new Person("Mohini", 26);
 console.log(user.name); // Mohini 
+
+output:-
+Mohini 
