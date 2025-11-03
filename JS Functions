@@ -78,3 +78,7 @@ function* numbers() {
 const gen = numbers();
 console.log(gen.next().value); // 1
 console.log(gen.next().value); // 2
+
+output:-
+1
+2
