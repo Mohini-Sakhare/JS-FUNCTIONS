@@ -141,3 +141,7 @@ function greet(name = "Guest") {
 }
 console.log(greet());      // Hello, Guest
 console.log(greet("Mohini"));// Hello, Mohini 
+
+output:-
+Hello, Guest
+Hello, Mohini 
